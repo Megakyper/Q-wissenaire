@@ -27,8 +27,8 @@ head {
     left: 0;
   }
   @media screen and (max-width: 1000px) {
-    top: 0;
-    left: -5%;
+    top: -5%;
+    left: -20%;
     transform: scale(0.5);
     transform-origin: 0 0;
   }

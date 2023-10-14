@@ -30,7 +30,7 @@ head {
   }
   @media screen and (max-width: 1000px) {
     top: -5%;
-    left: -90%;
+    left: -40%;
     transform: scale(0.5);
     transform-origin: 0 0;
     opacity: 0.6;

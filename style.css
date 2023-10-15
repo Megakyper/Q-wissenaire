@@ -86,7 +86,6 @@ section {
     .btn {
       width: 200px;
       max-width: 37.5vw;
-      aspect-ratio: 3.5/1;
       background: linear-gradient(to top, #0c356abb, #0c356add, #0c356aff);
       color: #ffffff;
       border-radius: 50px;
@@ -98,6 +97,12 @@ section {
       overflow: hidden;
       text-transform: uppercase;
       font-size: max(1.75vh, 1.25vw);
+      @media screen and (max-width: 1000px) {
+        aspect-ratio: 3/1;
+      }
+      @media screen and (min-width: 1000px) {
+        aspect-ratio: 3.5/1;
+      }
     }
 
     .btn span {
